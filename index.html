@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" class="display" id="display" disabled>
+        <div class="buttons">
+            <button onclick="appendtodisplay('1')">1</button>
+            <button onclick="appendtodisplay('2')">2</button>
+            <button onclick="appendtodisplay('3')">3</button>
+            <button onclick="appendtodisplay('4')">4</button>
+            <button onclick="appendtodisplay('5')">5</button>
+            <button onclick="appendtodisplay('6')">6</button>
+            <button onclick="appendtodisplay('7')">7</button>
+            <button onclick="appendtodisplay('8')">8</button>
+            <button onclick="appendtodisplay('9')">9</button>
+            <button onclick="appendtodisplay('0')">0</button>
+            <button onclick="appendtodisplay('+')">+</button>
+            <button onclick="appendtodisplay('*')">*</button>
+            <button onclick="appendtodisplay('-')">-</button>
+            <button onclick="cleardisplay()">c</button>
+            <button onclick="calculateResult()">=</button>
+            <button onclick="appendtodisplay('/')">/</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
